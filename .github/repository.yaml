@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/blechschmidt/greconcile/main/schema/repository.schema.json
+#
+# Reconciled by the greconcile server, not by a workflow in this repository.
+# Pushing a change to this file on the default branch is the whole trigger.
+
+version: 1
+
+repository:
+  description: "Test target for greconcile — settings come from this file"
+  features:
+    wiki: false
+    projects: false
+  pull_requests:
+    allow_merge_commit: false
+    allow_squash_merge: true
+    allow_rebase_merge: false
+    delete_branch_on_merge: true
+
+topics:
+  - greconcile
+  - server-mode
