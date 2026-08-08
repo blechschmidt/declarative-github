@@ -6,7 +6,7 @@
 version: 1
 
 repository:
-  description: "Test target for greconcile — settings come from this file"
+  description: "Test target for greconcile — reconciled over webhooks, no workflow"
   features:
     wiki: false
     projects: false
@@ -19,3 +19,4 @@ repository:
 topics:
   - greconcile
   - server-mode
+  - webhooks
